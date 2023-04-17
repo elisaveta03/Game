@@ -16,8 +16,8 @@ steps:
 run: |
  npm install
  npm run build 
--name: Run a one-line script
-run: echo Hello, world!
+- name: Run a one-line script
+  run: echo Hello, world!
 -name: Run a multi-line script 
 run: |
  echo Add other actions to build,
